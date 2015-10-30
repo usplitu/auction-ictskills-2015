@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=catalogue
+comment0.target=Auction(Catalogue)
+comment1.params=
+comment1.target=void\ openBidding()
+comment1.text=\r\n\ allow\ bidding\r\n
+comment2.params=
+comment2.target=void\ closeBidding()
+comment2.text=\r\n\ no\ further\ bids\ accepted\r\n
+comment3.params=
+comment3.target=void\ holdAuction()
+comment3.text=\r\n\ The\ auction\ comprises\ a\ check\ on\ all\ bids\r\n\ Winning\ bid\ is\ second\ highest\ for\ each\ lot\r\n\ Traverse\ map\ of\ bids\r\n\ Sort\ each\ array\ list\ of\ bids\ (corresponding\ to\ each\ lot)\r\n\ And\ sell\ to\ second\ highest\ bid\r\n
+comment4.params=bid
+comment4.target=boolean\ submitBid(Bid)
+comment4.text=\r\n\ Submit\ a\ bid\r\n\ The\ method\ adds\ the\ bid\ to\ the\ map\ of\ bids\r\n\ The\ map\ key\ is\ the\ number\ of\ the\ lot\ being\ bid\ for\r\n\ The\ corresponding\ map\ value\ is\ the\ array\ list\ of\ bids\ associated\ with\ that\ key\r\n\ \r\n\ @param\ bid\ The\ bid\ being\ submitted\r\n\ @return\ true\ if\ the\ bid\ accepted\ else\ false\r\n
+comment5.params=lotId\ person
+comment5.target=boolean\ status(int,\ Person)
+comment5.text=\r\n\ Checks\ if\ a\ particular\ person\ won\ the\ auction\ for\ particular\ lot\r\n\ Traverse\ all\ winning\ bids\r\n\ Search\ for\ match\ of\ lotId\ and\ person\ in\ each\ element\ of\ winning\ bids\ list\r\n\ \r\n\ @param\ lotId\ The\ id\ of\ the\ lot\ in\ question\r\n\ @param\ person\ The\ person\ whose\ bid\ is\ being\ checked\r\n\ @return\ True\ if\ the\ person's\ bid\ successful\ else\ return\ false\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Constructs\ string\ representation\ of\ object\r\n\ @return\ string\ representation\ of\ this\ object\r\n
+comment7.params=
+comment7.target=java.lang.String\ detailsWinningBids()
+comment7.text=\r\n\ Helper\ method\ for\ toString\ method\r\n\ @return\r\n
+numComments=8

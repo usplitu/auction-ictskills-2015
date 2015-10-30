@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=firstName\ lastName\ email\ pin
+comment0.target=Person(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Construct\ Person\ object\r\n\ @param\ firstName\r\n\ @param\ lastName\r\n\ @param\ email\r\n\ @param\ pin\r\n
+comment1.params=
+comment1.target=int\ getPin()
+comment1.text=\r\n\ Accessor\ for\ pin\ number\r\n\ @return\ The\ pin\ number\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Generates\ a\ String\ representation\ of\ Person\ object\r\n\ @return\ The\ string\ representation\ of\ Person\ object\r\n
+numComments=3

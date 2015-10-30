@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Audience()
+comment0.text=\r\n\ Constructs\ an\ Audience\ object\r\n\ Initializes\ the\ members\ field\r\n
+comment1.params=person
+comment1.target=boolean\ register(Person)
+comment1.text=\r\n\ Registers\ a\ person\ as\ a\ member\ of\ the\ audience\r\n\ @param\ person\ an\ instance\ of\ Person\ register\ as\ member\ of\ members\r\n\ @return\ returns\ true\ if\ the\ person\ successfully\ added\ to\ set\ else\ false\r\n
+comment2.params=person
+comment2.target=boolean\ isRegistered(Person)
+comment2.text=\r\n\ Authenticates\ a\ person\ is\ a\ member\ of\ the\ audience\r\n\ @param\ person\ The\ person\ being\ authenticated\r\n\ @return\ Returns\ true\ if\ the\ person\ is\ a\ member\ of\ the\ audience\ otherwise\ returns\ false.\r\n
+comment3.params=email\ pin
+comment3.target=Person\ isRegistered(java.lang.String,\ int)
+comment3.text=\r\n\ Authenticates\ person\ is\ member\ of\ audience\ \r\n\ Information\ provided\ is\ email\ and\ pin\r\n\ @param\ email\ The\ email\ address\ of\ person\ being\ authenticated\r\n\ @param\ pin\ The\ pin\ number\ of\ person\ being\ authenticated\r\n\ @return\ Returns\ true\ if\ the\ person\ is\ a\ member\ of\ the\ audience\ otherwise\ returns\ false.\r\n
+numComments=4

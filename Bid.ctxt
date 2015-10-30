@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=lot\ bidder\ amountBid
+comment0.target=Bid(Lot,\ Person,\ int)
+comment0.text=\r\n\ \r\n\ @param\ lot\ the\ subject\ of\ the\ bid\r\n\ @param\ bidder\ person\ bidding\r\n\ @param\ amountBid\ amount\ bid\ for\ lot\r\n
+comment1.params=
+comment1.target=int\ getAmountBid()
+comment1.text=\r\n\ Accessor\ for\ amountBid\ field\r\n\ @return\ The\ amount\ of\ this\ bid\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Constructs\ a\ string\ representation\ of\ this\ object\r\n\ @return\ string\ representation\ of\ this\ object\r\n
+numComments=3

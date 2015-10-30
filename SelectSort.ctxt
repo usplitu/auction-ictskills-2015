@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=bids
+comment0.target=void\ sort(java.util.ArrayList)
+comment0.text=\r\n\ Sorts\ list\ of\ bids\ in\ ascending\ order\r\n\ @param\ bids\ The\ list\ of\ bids\r\n
+comment1.params=bids\ i\ j
+comment1.target=void\ exchange(java.util.ArrayList,\ int,\ int)
+comment1.text=\r\n\ Swaps\ Bid\ elements\ in\ a\ list\ of\ Bid\ objects\r\n\ Uses\ the\ Collection\ class\ method\ swap\r\n\ @link\ \ http\://docs.oracle.com/javase/7/docs/api/java/util/Collections.html\r\n\ @param\ bids\ The\ list\ of\ Bid\ objects\r\n\ @param\ i\ The\ position\ in\ the\ list\ of\ the\ first\ object\r\n\ @param\ j\ The\ position\ in\ the\ list\ of\ the\ second\ object\r\n
+comment2.params=bid1\ bid2
+comment2.target=int\ compareTo(Bid,\ Bid)
+comment2.text=\r\n\ Compares\ 2\ Bid\ objects\ with\ refernce\ to\ the\ bid\ amount\ fields\r\n\ @param\ bid1\ The\ first\ bid\ object\r\n\ @param\ bid2\ The\ second\ bid\ object\r\n\ @return\ Negative\ one\ if\ bid1\ <\ bid2,\ zero\ if\ same,\ positive\ number\ if\ bid1\ >\ bid2\r\n
+numComments=3

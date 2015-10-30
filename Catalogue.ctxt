@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Catalogue()
+comment0.text=\r\n\ Constructs\ a\ catalogue\ object\r\n\ Initializes\ the\ Lot\ list\ field\r\n
+comment1.params=lot
+comment1.target=void\ addLot(Lot)
+comment1.text=\r\n\ Adds\ a\ Lot\ object\ to\ list\ of\ lots\ field\r\n\ @param\ lot\ The\ Lot\ object\ being\ added\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Constructs\ a\ string\ representation\ of\ this\ object\r\n\ @return\ string\ representation\ of\ this\ object\r\n
+numComments=3
